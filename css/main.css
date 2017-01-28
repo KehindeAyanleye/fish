@@ -1,9 +1,14 @@
 /**
  * =================================================================== 
  *
- *  Quatro v1.0 Main Stylesheet
- *  url: www.styleshout.com
- *  04-07-2016
+ *  The Underpin v1.0 Main Stylesheet
+ *  url: www.theunderpin.com
+ *  03-12-2016
+ *  
+ *  The Underpin v2.0 Main Stylesheet
+ *  url: www.theunderpin.com
+ *  28-01-2017
+ *
  *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
@@ -21,7 +26,7 @@
 
 /** 
  * ===================================================================
- * 01. webfonts and iconfonts - (_document-setup.scss)
+ * 01. webfonts and iconfonts - (_underpin-fonts.css)
  *
  * ------------------------------------------------------------------- 
  */
@@ -31,7 +36,7 @@
 
 /** 
  * ===================================================================
- * 02. base style overrides - (_document-setup.scss)
+ * 02. base style overrides - (_underpin-css-base.scss)
  *
  * ------------------------------------------------------------------- 
  */
@@ -60,11 +65,11 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #041218;
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #ffffff;
 }
 
 
@@ -82,7 +87,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus {
-	color: #dad6cc;
+	color: #041218;
 }
 
 /** 
@@ -93,7 +98,7 @@ a:hover, a:focus {
  */
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "roboto-bold", sans-serif;
+	font-family: "roboto-thin", sans-serif;
 	color: #FFFFFF;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -215,7 +220,7 @@ abbr {
 	color: #888888;
 }
 var, kbd, samp, code, pre {
-	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+	font-family: "roboto-black", serif;
 }
 pre {
 	padding: 2.4rem 3rem 3rem;

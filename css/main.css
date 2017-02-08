@@ -765,6 +765,32 @@ header .logo a {
  	color: #041218;
 }
 
+@media only screen and (max-width:768px) {
+	
+	.section .section__content .section__content--about{
+		margin: 50px 0;
+	}
+
+	.section .section__content .section__content--contact{
+		margin: 25px 0;
+	}
+
+}
+
+
+@media only screen and (max-width:380px) {
+	
+	.section .section__content .section__content--about{
+		margin: 50px 0;
+	}
+
+	.section .section__content .section__content--contact{
+		margin: 25px 0;
+	}
+
+}
+
+
 
 /*.section__contact .section__contact--button{
 	text-align: right;

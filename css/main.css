@@ -861,4 +861,12 @@ footer .footer__content .footer__content--container{
  	margin: 100px 0;
 }
 
+@media only screen and (max-width:380px) {
+	
+	footer .footer__content .footer__content--container{
+		margin: 50px 0;
+	}
+
+}
+
  /*# sourceMappingURL=main.css.map 
